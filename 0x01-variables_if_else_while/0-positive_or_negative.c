@@ -16,7 +16,7 @@
  *
  * * Return: 0
  *
- * */
+ */
 
 int main(void)
 
@@ -30,13 +30,15 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	  /* your code goes there */
+	  /*
+	   * your code goes there 
+	   */
 
 	if (n > 0)
 
 	{
 
-			printf("%i is positive\n", n);
+		printf("%i is positive\n", n);
 
 	}
 
@@ -44,7 +46,7 @@ int main(void)
 
 	{
 
-			printf("%i is zero\n", n);
+		printf("%i is zero\n", n);
 
 	}
 
@@ -52,7 +54,7 @@ int main(void)
 
 	{
 
-			printf("%i is negative\n", n);
+		printf("%i is negative\n", n);
 
 	}
 
