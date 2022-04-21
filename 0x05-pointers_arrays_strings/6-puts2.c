@@ -1,24 +1,22 @@
 #include "main.h"
 
 /**
- * puts_half - Prints half of a string.
- * @str: The string to be printed.
+ * puts2 - func that prints 1 char/2 of a string, followed by a new line.
+ * @str: declaration of str and paramters for the function puts2
+ * Return: Always 0.
  */
-void puts_half(char *str)
+void puts2(char *str)
 {
-	int index = 0, len = 0, n;
+	int x;
+	char c;
 
-	while (str[index++])
-		len++;
-
-	if ((len % 2) == 0)
-		n = len / 2;
-
-	else
-		n = (len + 1) / 2;
-
-	for (index = n; index < len; index++)
-		_putchar(str[index]);
-
+	for (x = 0; str[x] != 0; x++)
+	{
+		if (x % 2 == 0)
+		{
+			c = str[x];
+			_putchar(c);
+		}
+	}
 	_putchar('\n');
 }
