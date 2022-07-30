@@ -1,1 +1,1 @@
-function pointers
+hash tables
